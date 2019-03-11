@@ -19,20 +19,3 @@
     <finalName>demo</finalName>
   </build>
 </project>
-<!-- 配置远程仓库 -->
-    <repositories>
-        <repository>
-            <id>jboss</id>
-            <name>nexus</name>
-            <url>http://192.168.120.40:8081/repository/maven-public/</url>
-            <releases>
-                <enabled>true</enabled>
-                <updatePolicy>daily</updatePolicy>
-            </releases>
-            <snapshots>
-                <enabled>false</enabled>
-                <checksumPolicy>warn</checksumPolicy>
-            </snapshots>
-            <layout>default</layout>
-        </repository>
-    </repositories>
