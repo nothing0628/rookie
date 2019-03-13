@@ -33,7 +33,7 @@
 	<repositories>
 		<repository>
 			<id>public</id>
-			<name>Public Repositories</name>
+			<name>neuxs</name>
 			<url>http://192.168.120.40:8081/groups/public</url>
 		</repository>
 	</repositories>
