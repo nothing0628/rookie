@@ -19,22 +19,22 @@
     <finalName>demo</finalName>
   </build>
     <distributionManagement>
-		<repository>
-			<id>nexus</id>
-			<url>http://192.168.120.40:8081/repository/releases/</url>
-			<uniqueVersion>true</uniqueVersion>
-		</repository>
-		<snapshotRepository>
-			<id>nexus</id>
-			<url>http://192.168.120.40:8081/repository/snapshots/</url>
-			<uniqueVersion>true</uniqueVersion>
-		</snapshotRepository>
-	</distributionManagement>
-	<repositories>
-		<repository>
-			<id>public</id>
-			<name>neuxs</name>
-			<url>http://192.168.120.40:8081/groups/public</url>
-		</repository>
-	</repositories>
+      <repository>
+	<id>nexus-release</id>
+	<url>http://192.168.120.40:8081/repository/releases/</url>
+	<uniqueVersion>true</uniqueVersion>
+      </repository>
+      <snapshotRepository>
+	<id>nexus-snapshots</id>
+	<url>http://192.168.120.40:8081/repository/snapshots/</url>
+	<uniqueVersion>true</uniqueVersion>
+      </snapshotRepository>
+   </distributionManagement>
+       <repositories>
+	 <repository>
+	   <id>neuxs</id>
+	   <name>neuxs</name>
+	   <url>http://192.168.120.40:8081/groups/public</url>
+        </repository>
+      </repositories>
 </project>
