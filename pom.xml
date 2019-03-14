@@ -21,7 +21,7 @@
     <distributionManagement>
       <repository>
 	<id>nexus-release</id>
-	<url>http://192.168.120.40:8081/repository/releases/</url>
+	<url>http://192.168.120.40:8081/repository/release/</url>
 	<uniqueVersion>true</uniqueVersion>
       </repository>
       <snapshotRepository>
@@ -34,7 +34,7 @@
 	 <repository>
 	   <id>neuxs</id>
 	   <name>neuxs</name>
-	   <url>http://192.168.120.40:8081/groups/public</url>
+	   <url>http://192.168.120.40:8081/repository/public/</url>
         </repository>
       </repositories>
 </project>
