@@ -32,7 +32,7 @@
    </distributionManagement>
        <repositories>
 	 <repository>
-	   <id>neuxs</id>
+	   <id>neuxs-public</id>
 	   <name>neuxs</name>
 	   <url>http://192.168.120.40:8081/repository/public/</url>
         </repository>
